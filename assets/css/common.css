@@ -1,0 +1,111 @@
+/* styles.css */
+
+/* General Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+   
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5,h6,p{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+
+body{
+    background: #Fff;
+}
+:root{
+    --white : #fff;
+    /* --swiper-theme-color: #69FAB4; */
+   
+}
+.container {
+    max-width: 1420px;
+} 
+.fs-52-w{
+font-size: 52px;
+line-height:78px;
+color: #FFF;
+font-weight: 600;
+}
+.fs-52-c{
+font-size: 52px;
+line-height:78px;
+color: #260058;
+font-weight: 600;
+}
+.fs-18, .fs-18-w, .fs-18-c{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px
+}
+.fs-18-w{
+  color: var(--Neutral-Color, #FFF);
+}
+.fs-18-c{
+  color: var(--Primary-Color, #260058);
+}
+.fs-18-b{
+  color: var(--Primary-Color, #260058);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+}
+.fs-32-c, .fs-32-w{
+  color: var(--Primary-Color, #260058);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+
+}
+.fs-32-w{
+  color: var(--Neutral-Color, #FFF);
+}
+
+
+/* General Styles End */
+
+/* width, height, and color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* color of the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: #260058;
+}
+
+/* color on the top and bottom of the scrollbar handle */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* corner radius of the scrollbar handle */
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 12px;
+}
+
+/* corner radius of the scrollbar track */
+::-webkit-scrollbar-track:horizontal {
+  border-radius: 12px;
+}
+
