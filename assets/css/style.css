@@ -131,6 +131,14 @@
     border: 1px solid var(--Color-03, #E1CBFF);
     background: var(--Linear-01, rgba(255, 255, 255, 0.30));
     backdrop-filter: blur(15px);
+    padding: 15px 39px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.light i{
+    width: 18px;
+    height: 18px;
 }
 .simple{
     background: none!important;
@@ -139,6 +147,13 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 150%; /* 27px */
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.simple:hover{
+    color: #5C0DC6;
+    transition: 0.3s ease-in-out;
 }
 .client-info{
     color: var(--Text-Color-01, #2E2E2E);
@@ -178,38 +193,21 @@
     margin-bottom: 24px;
 }
 
-.first {
-    display: block;
-}
-
-.second {
-    display: none;
-}
-
-.card:hover .first {
-    display: none;
-}
-
-.card:hover .second {
-    display: block;
-}
-
-.card {
+.custom{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--Linear-02, #541C9F);
-    background: var(--Primary-Color, #260058);
+    background-image: url(../images/border.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Primary-Color, #260058);
     border-radius: 28px;
-    transition: 0.3s ease-in-out;
-    /* min-height: 363px; */
-    padding: 124px 54px 40px 54px;
+    background-position: bottom;
+    padding: 124px 54px;
 }
 
-.card:hover {
-    /* background-image: url(../images/border.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
+.custom:hover {
+    background-image: none;
     background: var(--Color-02, #3E1378);
     border: 1px solid var(--Linear-02, #3E1378);
     box-shadow: 0px 126px 76px 0px rgba(0, 0, 0, 0.05), 0px 224px 90px 0px rgba(0, 0, 0, 0.01), 0px 351px 98px 0px rgba(0, 0, 0, 0.00);
@@ -221,7 +219,7 @@
     padding: 0;
 }
 .card-body i{
-    font-size: 18px;
+    font-size: 22px;
     color: #AE72FF;
     text-align: center;
     margin: 0 auto;
@@ -243,8 +241,9 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 150%; /* 27px */
-    padding-bottom: 50px;
+    padding-bottom: 42px;
 }
+
 
 /* serve section end */
 /* ======about section start =====*/
@@ -268,7 +267,7 @@
 .child{
     display: flex;
     gap: 18px;
-    padding-bottom: 41px;
+    padding-bottom: 36px;
 }
 
 /* ======about section end =====*/
@@ -323,8 +322,100 @@
 
 }
 /* ======marketing section end =====*/
+/* ======testimonial section start =====*/
+.testimonial-section, .blog-section{
+    margin-top: 140px;
+}
+.test-sub{
+    text-align: center;
+}
 
-/* email section start */
+/* slick slider css */
+.tst-wrapper{
+    background-color: #F9F4FF;
+    border-radius: 40px;
+    padding: 48px 65px;
+    text-align: center;
+    margin-right: 30px
+}
+.tst-wrapper .quote{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.rating .img-fluid {
+    max-width: 60%;
+    margin: auto;
+    height: auto;
+    padding: 24px 0 20px 0;
+    
+}
+.client-name{
+    color: var(--Primary-Color, #260058);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 150%; /* 39px */
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 48px;
+}
+
+.slick-dots li{
+    
+    width: 12px;
+    height: 12px;
+    background: #E1CBFF;
+    border-radius: 50%;
+
+}
+.slick-dots button{
+    display: none;
+}
+li.slick-active{
+    background: #260058!important;
+}
+
+/* slick slider css */
+
+/* ======testimonial section end =====*/
+/* ======blog section start =====*/
+.blog-wrapper{
+    background-color: #F9F4FF;
+    border-radius: 32px;
+    padding: 32px;
+    text-align: center;
+    margin-right: 30px
+}
+.blog-wrapper img{
+    border-radius: 18px;
+}
+.blog-sub-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+.blog-sub{
+    border-radius: 100px;
+    background: var(--Color-06, #F0E3FF);
+    padding: 10px 28px;
+    font-weight: 500;
+    margin-bottom: 32px;
+
+}
+.blog-sub-2-parent{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+/* ======blog section end =====*/
+
+/* =======email section start========= */
 .email__section {
     margin-top: 140px;
 
@@ -424,7 +515,7 @@
     line-height: 30px; /* 187.5% */
 }
 
-.cust{
+/* .cust{
     margin: 50px;
 }
 .cust_height{
@@ -437,6 +528,6 @@
 .cust_height{
     border: 10px solid red;
     margin-left: -50px;
-}
+} */
 
 
