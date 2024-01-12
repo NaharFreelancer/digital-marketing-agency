@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <link rel="stylesheet" href="./assets/css/common.css">
 <link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 
@@ -26,7 +27,9 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a href="./index.html"><img class="img-fluid" src="./assets/images/logo.png" alt="img"></a>
+          <div class="logo-img">
+            <a href="./index.html"><img class="img-fluid" src="./assets/images/logo.png" alt="img"></a>
+          </div>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -34,25 +37,25 @@
             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto">
+            <ul class="navbar-nav  mx-auto ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  " href="./about.html">About us</a>
+                <a class="nav-link  " href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="./service.html">Our Services</a>
+                <a class="nav-link " href="#">Our Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="./service.html">Blog</a>
+                <a class="nav-link " href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="./service.html">Contact</a>
+                <a class="nav-link " href="#">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
-              <a href="#"><button class="btn btn-success" type="submit">Get Started</button>
+              <a href="#" class="btn btn-success">Get Started
               </a>
             </form>
           </div>
@@ -79,19 +82,24 @@
               services</h1>
 
             <p class="hero-text">Our goal is to make it as easy as possible for you to walk away with the solution
-              that <br class="d-none d-lg-block">
+              that <br class="d-none d-xl-block">
               suits your needs perfectly. Discover how we can transform your online presence.</p>
 
 
             <div class="btn-group">
               <!-- <button class="btn btn-success dark" type="submit">Let's Talk <i class="fa-solid fa-arrow-right-long icon"></i></button> -->
-              <a href="#"><button class="btn btn-success dark" type="submit">Get Started</button></a>
-              <a href="#"><button class="btn btn-success light" type="submit">Pricing <i
-                    class="fa-solid fa-chevron-right"></i></button></a>
+              <a href="#"><button class="btn btn-success dark" type="submit">Get Started</button>
+              </a>
+              <a href="#"><button class="btn btn-success light">Pricing  <i class="fa-solid fa-chevron-right"></i></button>
+              </a>
             </div>
 
             <p class="client-info">Trusted by our Clients</p>
-            <img class="img-fluid" src="./assets/images/clients.png" alt="img">
+            <div class="client-img">
+              <img class="img-fluid" src="./assets/images/clients.png" alt="img">
+
+
+            </div>
           </div>
 
 
@@ -122,13 +130,13 @@
 
         <div class="row align-items-center">
           <div class="col-lg-5">
-            <p class="fs-52-w">Our services solve any
+            <p class="fs-52-w res-425">Our services solve any
               business problem</p>
           </div>
           <div class="col-lg-2"></div>
           <div class="col-lg-5">
             <p style="color: #D0D0D0; padding-bottom: 33px;" class="fs-18">Our team has a successful track record of
-              helping brands<br class="d-none d-lg-block">
+              helping brands<br class="d-none d-xl-block">
               scale profitably based on high-performing strategies.</p>
             <a href="#">
               <p class="simple">See More <i class="fa-solid fa-chevron-right"></i></p>
@@ -141,7 +149,7 @@
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
 
         <div class="col-md-6 col-lg-4">
           <a href="#">
@@ -175,7 +183,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <a href="#">
-            <div class="card custom"> 
+              <div class="card custom "> 
                 <div class="card-img-top first">
                   <img class="img-fluid" src="./assets/images/market.png"  alt="img">
                 </div>
@@ -186,6 +194,9 @@
                   <i class="fa-solid fa-arrow-right-long"></i>
                 </div>
             </div>
+
+
+           
           </a>
         </div>
 
@@ -203,44 +214,51 @@
       <div class="about-area">
         <div class="row align-items-center">
           <div class="col-lg-5">
-            <img class="img-fluid" src="./assets/images/about-img.png" alt="img">
-          </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-6">
-            <span class="fs-18 about-sub">About Us</span>
-            <h3 class="fs-52-c" style="margin-top: 24px;">We Offer Professional SEO
-              Services For 26+ Years</h3>
-            <p class="fs-18 about-text">Digital marketing refers to the practice of promoting products or services using
-              digital technologies,
-              primarily on the internet. This can include a range of techniques, such as social media marketing,
-              search engine optimization (SEO), email marketing, pay-per-click advertising, and content marketing.</p>
-            <div class="row">
-
-              <div class="col-lg-6">
-                <div class="child">
-                  <img class="img-fluid" src="./assets/images/tick.png" alt="img">
-                  <p class="fs-18-b">High End Analyzing</p>
-                </div>
-                <div class="child">
-                  <img class="img-fluid" src="./assets/images/tick.png" alt="img">
-                  <p class="fs-18-b">Updated With Trend</p>
-                </div>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="child">
-                  <img class="img-fluid" src="./assets/images/tick.png" alt="img">
-                  <p class="fs-18-b">Technical & Creative Expertise</p>
-                </div>
-                <div class="child">
-                  <img class="img-fluid" src="./assets/images/tick.png" alt="img">
-                  <p class="fs-18-b">Marketing Management</p>
-                </div>
-              </div>
+            <div class="about-img">
+              <img class="img-fluid" src="./assets/images/about-img.png" alt="img">
 
             </div>
-            <a href="#"><button class="btn btn-success dark" type="submit">Learn More</button></a>
-
+          </div>
+          <div class="col-lg-1"></div>
+          
+            <div class="col-lg-6">
+              <div class="about-aside">
+              <span class="fs-18 about-sub">About Us</span>
+              <h3 class="fs-52-c" style="margin-top: 24px;">We Offer Professional SEO
+                Services For 26+ Years</h3>
+              <p class="fs-18 about-text">Digital marketing refers to the practice of promoting products or services using
+                digital technologies,
+                primarily on the internet. This can include a range of techniques, such as social media marketing,
+                search engine optimization (SEO), email marketing, pay-per-click advertising, and content marketing.</p>
+              <div class="row">
+  
+                <div class="col-lg-12 col-xl-6">
+                  <div class="child">
+                    <img class="img-fluid" src="./assets/images/tick.png" alt="img">
+                    <p class="fs-18-b">High End Analyzing</p>
+                  </div>
+                  <div class="child">
+                    <img class="img-fluid" src="./assets/images/tick.png" alt="img">
+                    <p class="fs-18-b">Updated With Trend</p>
+                  </div>
+                </div>
+  
+                <div class="col-lg-12 col-xl-6">
+                  <div class="child">
+                    <img class="img-fluid" src="./assets/images/tick.png" alt="img">
+                    <p class="fs-18-b">Technical & Creative Expertise</p>
+                  </div>
+                  <div class="child">
+                    <img class="img-fluid" src="./assets/images/tick.png" alt="img">
+                    <p class="fs-18-b">Marketing Management</p>
+                  </div>
+                </div>
+  
+              </div>
+              <a href="#" class="btn btn-success dark">Learn More</a>
+  
+            </div>
+  
           </div>
         </div>
       </div>
@@ -274,7 +292,7 @@
   <!-- choose Section start Here-->
   <div class="choose-section">
     <div class="container">
-      <div class="choose-area">
+      <div class="choose-area choose-aside">
         <div class="row">
           <div class="col-lg-6">
             <span class="fs-18 about-sub">Why Choose Us</span>
@@ -287,19 +305,22 @@
 
             <div class="child" style="padding-bottom: 24px;">
               <img class="img-fluid" src="./assets/images/tick.png" alt="img">
-              <p class="fs-18-c">Easily Customize Your Follow-up Campaigns</p>
+              <p class="fs-18-c res-375">Easily Customize Your Follow-up Campaigns</p>
             </div>
             <div class="child" style="padding-bottom: 32px;">
               <img class="img-fluid" src="./assets/images/tick.png" alt="img">
-              <p class="fs-18-c">Power Your Revenue With Email & Sms Marketing</p>
+              <p class="fs-18-c res-375">Power Your Revenue With Email & Sms Marketing</p>
             </div>
 
-            <a href="#"><button class="btn btn-success dark" type="submit">Contact Us</button></a>
+            <a href="#" class="btn btn-success dark">Contact Us</a>
 
           </div>
           <div class="col-lg-1"></div>
           <div class="col-lg-5">
-            <img class="img-fluid" src="./assets/images/choose-img.png" alt="img">
+            <div class="choose-img">
+              <img class="img-fluid" src="./assets/images/choose-img.png" alt="img">
+
+            </div>
           </div>
 
         </div>
@@ -312,9 +333,9 @@
   <div class="marketing-section">
     <div class="container">
       <div class="marketing-area">
-        <h4 class="fs-52-w text-center">Make your marketing more<br class="d-none d-lg-block">
+        <h4 class="fs-52-w text-center">Make your marketing more<br class="d-none d-md-block">
           effective</h4>
-        <p class="fs-18" style="text-align: center; color: #D0D0D0; padding: 24px 0 77px 0;">E-commerce brands can
+        <p class="fs-18 market-text" style="text-align: center; color: #D0D0D0; padding: 24px 0 77px 0;">E-commerce brands can
           acquire and retain new customers using<br class="d-none d-lg-block">
           solutions that span the entire customer journey.</p>
         <div class="row">
@@ -327,7 +348,10 @@
               <a href="#">
                 <p class="simple">Learn More <i class="fa-solid fa-arrow-right-long"></i></p>
               </a>
-              <img class="img-fluid w-100" style="padding-top: 38px;" src="./assets/images/loading.png" alt="img">
+              <div class="loading-img">
+                <img class="img-fluid w-100" style="padding-top: 38px;" src="./assets/images/loading.png" alt="img">
+
+              </div>
 
             </div>
 
@@ -344,7 +368,10 @@
               <a href="#">
                 <p class="simple" style="color: #260058;">Learn More <i class="fa-solid fa-arrow-right-long"></i></p>
               </a>
-              <img class="img-fluid" style="padding-top: 62px;" src="./assets/images/automation.png" alt="img">
+              <div class="seven-img">
+                <img class="img-fluid" style="padding-top: 62px;" src="./assets/images/automation.png" alt="img">
+
+              </div>
             </div>
           </div>
 
@@ -363,7 +390,10 @@
                 </div>
 
                 <div class="col-lg-6">
-                  <img class="img-fluid w-100" src="./assets/images/smm.png" alt="img">
+                  <div class="smm-img">
+                    <img class="img-fluid w-100" src="./assets/images/smm.png" alt="img">
+
+                  </div>
                 </div>
 
               </div>
@@ -376,7 +406,7 @@
 
     </div>
   </div>
-  </div>
+ 
   <!-- marketing Section end Here-->
     <!-- Testimonial  Section start Here-->
   <div class="testimonial-section">
@@ -385,7 +415,7 @@
         <div class="test-sub">
           <span class="fs-18 about-sub ">Testimonial</span>
         </div>
-        <h3 class="fs-52-c text-center" style="margin:30px 0;">What Our Clients Are<br class="d-none d-lg-block">
+        <h3 class="fs-52-c text-center" style="margin:30px 0;">What Our Clients Are<br class="d-none d-md-block">
           Saying About Us</h3>
 
           <div class="testimonial-slider-class">
@@ -507,7 +537,7 @@
         <div class="test-sub">
           <span class="fs-18 about-sub ">Blog</span>
         </div>
-        <h3 class="fs-52-c text-center" style="margin:30px 0;">Make Your Marketing <br class="d-none d-lg-block">
+        <h3 class="fs-52-c text-center" style="margin:30px 0;">Make Your Marketing <br class="d-none d-md-block">
           More Effective </h3>
         
 
@@ -524,7 +554,7 @@
                   How To Create A Modern That <br class="d-none d-lg-block">
                   Attracts Customers?
                 </p>
-                <a href="#"> <img src="./assets/images/angel-icon.png" alt="icon"> </a>
+                <a href="#"> <img class="img-fluid" src="./assets/images/angel-icon.png" alt="icon"> </a>
               </div>
             </div>
             <div class="blog-wrapper">
@@ -538,7 +568,7 @@
                   How To Create A Modern That <br class="d-none d-lg-block">
                   Attracts Customers?
                 </p>
-                <a href="#"> <img src="./assets/images/angel-icon.png" alt="icon"> </a>
+                <a href="#"> <img class="img-fluid" src="./assets/images/angel-icon.png" alt="icon"> </a>
               </div>
             </div>
             <div class="blog-wrapper">
@@ -552,7 +582,7 @@
                   How To Create A Modern That <br class="d-none d-lg-block">
                   Attracts Customers?
                 </p>
-                <a href="#"> <img src="./assets/images/angel-icon.png" alt="icon"> </a>
+                <a href="#"> <img class="img-fluid" src="./assets/images/angel-icon.png" alt="icon"> </a>
               </div>
             </div>
             <div class="blog-wrapper">
@@ -566,7 +596,7 @@
                   How To Create A Modern That <br class="d-none d-lg-block">
                   Attracts Customers?
                 </p>
-                <a href="#"> <img src="./assets/images/angel-icon.png" alt="icon"> </a>
+                <a href="#"> <img class="img-fluid" src="./assets/images/angel-icon.png" alt="icon"> </a>
               </div>
             </div>
             <div class="blog-wrapper">
@@ -580,7 +610,7 @@
                   How To Create A Modern That <br class="d-none d-lg-block">
                   Attracts Customers?
                 </p>
-                <a href="#"> <img src="./assets/images/angel-icon.png" alt="icon"> </a>
+                <a href="#"> <img class="img-fluid" src="./assets/images/angel-icon.png" alt="icon"> </a>
               </div>
             </div>
             <div class="blog-wrapper">
@@ -594,7 +624,7 @@
                   How To Create A Modern That <br class="d-none d-lg-block">
                   Attracts Customers?
                 </p>
-                <a href="#"> <img src="./assets/images/angel-icon.png" alt="icon"> </a>
+                <a href="#"> <img class="img-fluid" src="./assets/images/angel-icon.png" alt="icon"> </a>
               </div>
             </div>
 
@@ -613,7 +643,7 @@
   <div class="email__section">
     <div class="container">
       <div class="email__area">
-        <h2 class="email-title">Let’s Start Working Together.<br class="d-none d-lg-block">
+        <h2 class="email-title">Let’s Start Working Together.<br class="d-none d-md-block">
           <span class="get-in-touch">Get in Touch</span> with Us!
         </h2>
       </div>
@@ -630,7 +660,7 @@
           <div class="footer_logo">
             <a href="./index.html"><img class="img-fluid" src="./assets/images/footer-logo.png" alt="img"></a>
             <p class="fs-18-w footer-logo-text">Lorem ipsum dolor sit amet<br class="d-none d-lg-block">
-              consectetur adipiscing elit aliquam</p>
+              consectetur adipiscing <br class="d-block d-lg-none"> elit aliquam</p>
             <div class="social-media">
               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
               <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -644,37 +674,37 @@
 
           <div class="footer-menu">
             <p class="company-title">Company</p>
-            <a href="./index.html">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Services</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="./index.html"> <span class="fs-18-w">Home</span> </a>
+            <a href="#"> <span class="fs-18-w">About us</span> </a>
+            <a href="#"><span class="fs-18-w">Services </span> </a>
+            <a href="#"> <span class="fs-18-w">Blog</span> </a>
+            <a href="#"> <span class="fs-18-w">Contact</span> </a>
           </div>
 
 
 
           <div class="footer-menu">
             <p class="company-title">Support</p>
-            <a href="#">Getting started</a>
-            <a href="#">Help center</a>
-            <a href="#">Server status</a>
-            <a href="#">Report a bug</a>
-            <a href="#">Chat support</a>
+            <a href="#"><span class="fs-18-w">Getting started</span></a>
+            <a href="#"><span class="fs-18-w">Help center</span></a>
+            <a href="#"><span class="fs-18-w">Server status</span></a>
+            <a href="#"><span class="fs-18-w">Report a bug</span></a>
+            <a href="#"><span class="fs-18-w">Chat support</span></a>
           </div>
           <div class="footer-menu">
             <p class="company-title">Contacts us</p>
             <div class="contact-child">
               <i class="fa-regular fa-envelope"></i>
-              <a href="#">contact@company.com</a>
+              <a href="#"><span class="fs-18-w">contact@company.com</span></a>
             </div>
             <div class="contact-child">
               <i class="fa-solid fa-phone"></i>
-              <a href="#">(414) 687 - 5892</a>
+              <a href="#"><span class="fs-18-w">(414) 687 - 5892</span></a>
             </div>
             <div class="contact-child">
               <i class="fa-solid fa-location-dot"></i>
-              <a href="#">794 Mcallister St <br class="d-none d-lg-block">
-                San Francisco, 94102</a>
+              <a href="#"><span class="fs-18-w">794 Mcallister St <br class="d-none d-lg-block">
+                San Francisco, 94102</span></a>
             </div>
           </div>
 
