@@ -44,11 +44,7 @@
     --bs-btn-hover-bg: #260058;
     --bs-btn-hover-border-color: #260058;
 }
-a.btn.btn-success{
-    color: var(--bs-btn-active-color);
-    background-color: var(--bs-btn-active-bg);
-    border-color: var(--bs-btn-active-border-color);
-}
+
 
 .btn {
     font-size: 18px;

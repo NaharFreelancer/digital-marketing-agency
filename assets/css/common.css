@@ -41,6 +41,18 @@ body{
 .container {
     max-width: 1420px;
 } 
+.fa-bars:before, .fa-navicon:before {
+  content: none;
+}
+.purple {
+  color: #FFF;
+  background: #5C0DC6;
+  border: 1px solid #5C0DC6!important;
+  --bs-btn-hover-bg: #FFF!important;
+  --bs-btn-hover-color: #5C0DC6!important;
+  --bs-btn-hover-border-color: #AE72FF!important;
+}
+
 .fs-52-w{
 font-size: 52px;
 line-height:78px;
@@ -53,13 +65,22 @@ line-height:78px;
 color: #260058;
 font-weight: 600;
 }
-.fs-18, .fs-18-w, .fs-18-c{
+.fs-24-c{
+  color: var(--Primary-Color, #260058);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+.fs-18, .fs-18-w, .fs-18-c, .fs-18-s{
 font-size: 18px;
 font-weight: 400;
 line-height: 27px
 }
 .fs-18-w{
   color: var(--Neutral-Color, #FFF);
+}
+.fs-18-s{
+  color: #595959;
 }
 .fs-18-c{
   color: var(--Primary-Color, #260058);
@@ -80,32 +101,52 @@ line-height: 27px
 .fs-32-w{
   color: var(--Neutral-Color, #FFF);
 }
+.fs-24-s{
+  color: var(--Text-Color-02, #595959);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
 
 
 /* General Styles End */
 
-/* width, height, and color of the scrollbar track */
+
+/* =========== */
+/* WebKit (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* color of the scrollbar handle */
 ::-webkit-scrollbar-thumb {
   background-color: #260058;
 }
 
-/* color on the top and bottom of the scrollbar handle */
 ::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
 
-/* corner radius of the scrollbar handle */
 ::-webkit-scrollbar-thumb:vertical {
   border-radius: 12px;
 }
 
-/* corner radius of the scrollbar track */
 ::-webkit-scrollbar-track:horizontal {
+  border-radius: 12px;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #260058 #f1f1f1;
+}
+
+*::-moz-scrollbar-thumb {
+  background-color: #260058;
+  border-radius: 12px;
+}
+
+*::-moz-scrollbar-track {
+  background-color: #f1f1f1;
   border-radius: 12px;
 }
 
