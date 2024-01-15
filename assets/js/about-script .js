@@ -95,7 +95,6 @@
 
 // const el = document.querySelector( '.counter' )
 // IO.observe( el )
-///---- counting animation start---///
 
 const counterUp = window.counterUp.default;
 
@@ -149,6 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 ///---- Scroll to Top end---///
+
 
 
 

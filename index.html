@@ -13,8 +13,9 @@
   crossorigin="anonymous" referrerpolicy="no-referrer">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="./assets/css/common.css">
 <link rel="stylesheet" href="./assets/css/style.css">
 <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -105,7 +106,8 @@
 
           <div class="col-lg-5">
             <div class="hero-left-side">
-              <img class="img-fluid" src="./assets/images/bg.png" alt="img">
+              <img class="img-fluid d-block d-xl-none" src="./assets/images/bg.png" alt="img">
+              <img class="img-fluid d-none d-xl-block" src="./assets/images/BG-1.png" alt="img">
             </div>
 
           </div>
@@ -147,7 +149,13 @@
   <!-- card section -->
   <div class="row">
   <div class="col-md-6 col-lg-4">
-  <div class="new_card">
+  <div class="new_card" 
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-out"
+          data-aos-once="false">
   
     <div class="new-card-img-top">
       <img class="img-fluid" src="./assets/images/paid.png"  alt="img">
@@ -159,7 +167,13 @@
   </div>
   </div>
   <div class="col-md-6 col-lg-4">
-  <div class="new_card">
+  <div class="new_card"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1400"
+                data-aos-easing="ease-in-out"
+                data-aos-once="false">
   
     <div class="new-card-img-top">
       <img class="img-fluid" src="./assets/images/optim.png"  alt="img">
@@ -172,7 +186,13 @@
   </div>
   </div>
   <div class="col-md-6 col-lg-4">
-  <div class="new_card">
+  <div class="new_card"
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-out"
+          data-aos-once="false">
   
     <div class="new-card-img-top">
       <img class="img-fluid" src="./assets/images/market.png"  alt="img">
@@ -257,21 +277,21 @@
   <!-- counting Section start Here-->
   <div class="counting-section">
     <div class="container">
-      <div class="counting-parent">
-        <div class="counting-child">
-          <h2 class="count-head">4.8K</h2>
+      <div class="counting-parent row g-4 text-center">
+        <div class="counting-child col-6 col-lg-3">
+          <h2 class="count-head counter">4.8K</h2>
           <p class="count-text">Jobs Completed</p>
         </div>
-        <div class="counting-child">
-          <h2 class="count-head">15+</h2>
+        <div class="counting-child col-6 col-lg-3" >
+          <h2 class="count-head counter">15+</h2>
           <p class="count-text">Industry Experience</p>
         </div>
-        <div class="counting-child">
-          <h2 class="count-head">3.6K+</h2>
+        <div class="counting-child col-6 col-lg-3">
+          <h2 class="count-head counter">3.6K+</h2>
           <p class="count-text">Global Clients</p>
         </div>
-        <div class="counting-child">
-          <h2 class="count-head">130+</h2>
+        <div class="counting-child col-6 col-lg-3">
+          <h2 class="count-head counter">130+</h2>
           <p class="count-text">Avards Winned</p>
         </div>
       </div>
@@ -322,9 +342,23 @@
   <div class="marketing-section">
     <div class="container">
       <div class="marketing-area">
-        <h4 class="fs-52-w text-center">Make your marketing more<br class="d-none d-md-block">
+        <h4 class="fs-52-w text-center"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="false">
+          Make your marketing more<br class="d-none d-md-block">
           effective</h4>
-        <p class="fs-18 market-text" style="text-align: center; color: #D0D0D0; padding: 24px 0 77px 0;">E-commerce brands can
+        <p class="fs-18 market-text" style="text-align: center; color: #D0D0D0; padding: 24px 0 77px 0;"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+          data-aos-easing="ease-in-out"
+          data-aos-once="false">
+          E-commerce brands can
           acquire and retain new customers using<br class="d-none d-lg-block">
           solutions that span the entire customer journey.</p>
         <div class="row">
@@ -404,12 +438,25 @@
         <div class="test-sub">
           <span class="fs-18 about-sub ">Testimonial</span>
         </div>
-        <h3 class="fs-52-c text-center" style="margin:30px 0;">What Our Clients Are<br class="d-none d-md-block">
+        <h3 class="fs-52-c text-center" style="margin:30px 0;"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="false">
+          What Our Clients Are<br class="d-none d-md-block">
           Saying About Us</h3>
 
           <div class="testimonial-slider-class">
    
-            <div class="tst-wrapper">
+            <div class="tst-wrapper"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                data-aos-once="false">
               <img class="quote" src="./assets/images/quote.png" alt="img">
               <p class="fs-18-c text-center">
                 "High standard and excellent quality of work. They helped my business grow in digital."
@@ -420,7 +467,13 @@
               <h4 class="client-name">Adam Watson</h4>
               <p class="fs-18-c">Digital Marketer</p>
             </div>
-            <div class="tst-wrapper">
+            <div class="tst-wrapper"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1400"
+                data-aos-easing="ease-in-out"
+                data-aos-once="false">
               <img class="quote" src="./assets/images/quote.png" alt="img">
               <p class="fs-18-c text-center">
                 “Awesome work! High standard and excellent quality. They helped my business grow in digital.”
@@ -431,7 +484,13 @@
               <h4 class="client-name">Eloise Smith</h4>
               <p class="fs-18-c">Content Marketer</p>
             </div>
-            <div class="tst-wrapper">
+            <div class="tst-wrapper"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                data-aos-once="false">
               <img class="quote" src="./assets/images/quote.png" alt="img">
               <p class="fs-18-c text-center">
                 "High standard and excellent quality of work. They helped my business grow in digital."
@@ -526,14 +585,23 @@
         <div class="test-sub">
           <span class="fs-18 about-sub ">Blog</span>
         </div>
-        <h3 class="fs-52-c text-center" style="margin:30px 0;">Make Your Marketing <br class="d-none d-md-block">
+        <h3 class="fs-52-c text-center" style="margin:30px 0;"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="false">
+          Make Your Marketing <br class="d-none d-md-block">
           More Effective </h3>
         
 
           <div class="blog-slider-class">
    
             <div class="blog-wrapper">
-              <img class="img-fluid" src="./assets/images/blog-img-1.png" alt="img">
+              <div class="blog-img-parent">
+                <img class="img-fluid" src="./assets/images/blog-img-1.png" alt="img">
+              </div>
               <div class="blog-sub-parent">
                   <span class="fs-18-c blog-sub">Marketing</span>
                   <span class="fs-18-c blog-sub">2 min read</span>
@@ -547,7 +615,9 @@
               </div>
             </div>
             <div class="blog-wrapper">
-              <img class="img-fluid" src="./assets/images/blog-img-2.png" alt="img">
+              <div class="blog-img-parent">
+                <img class="img-fluid" src="./assets/images/blog-img-2.png" alt="img">
+              </div>
               <div class="blog-sub-parent">
                   <span class="fs-18-c blog-sub">Marketing</span>
                   <span class="fs-18-c blog-sub">2 min read</span>
@@ -561,7 +631,9 @@
               </div>
             </div>
             <div class="blog-wrapper">
-              <img class="img-fluid" src="./assets/images/blog-img-1.png" alt="img">
+              <div class="blog-img-parent">
+                <img class="img-fluid" src="./assets/images/blog-img-1.png" alt="img">
+              </div>
               <div class="blog-sub-parent">
                   <span class="fs-18-c blog-sub">Marketing</span>
                   <span class="fs-18-c blog-sub">2 min read</span>
@@ -575,7 +647,9 @@
               </div>
             </div>
             <div class="blog-wrapper">
-              <img class="img-fluid" src="./assets/images/blog-img-2.png" alt="img">
+              <div class="blog-img-parent">
+                <img class="img-fluid" src="./assets/images/blog-img-2.png" alt="img">
+              </div>
               <div class="blog-sub-parent">
                   <span class="fs-18-c blog-sub">Marketing</span>
                   <span class="fs-18-c blog-sub">2 min read</span>
@@ -589,7 +663,9 @@
               </div>
             </div>
             <div class="blog-wrapper">
-              <img class="img-fluid" src="./assets/images/blog-img-1.png" alt="img">
+              <div class="blog-img-parent">
+                <img class="img-fluid" src="./assets/images/blog-img-1.png" alt="img">
+              </div>
               <div class="blog-sub-parent">
                   <span class="fs-18-c blog-sub">Marketing</span>
                   <span class="fs-18-c blog-sub">2 min read</span>
@@ -603,7 +679,9 @@
               </div>
             </div>
             <div class="blog-wrapper">
-              <img class="img-fluid" src="./assets/images/blog-img-2.png" alt="img">
+              <div class="blog-img-parent">
+                <img class="img-fluid" src="./assets/images/blog-img-2.png" alt="img">
+              </div>
               <div class="blog-sub-parent">
                   <span class="fs-18-c blog-sub">Marketing</span>
                   <span class="fs-18-c blog-sub">2 min read</span>
@@ -633,7 +711,7 @@
     <div class="container">
       <div class="email__area">
         <h2 class="email-title">Let’s Start Working Together.<br class="d-none d-md-block">
-          <span class="get-in-touch">Get in Touch</span> with Us!
+          <a href="mailto:naharweb15@gmail.com" target="_blank"><span class="get-in-touch">Get in Touch</span></a> with Us!
         </h2>
       </div>
     </div>
@@ -651,11 +729,11 @@
             <p class="fs-18-w footer-logo-text">Lorem ipsum dolor sit amet<br class="d-none d-lg-block">
               consectetur adipiscing <br class="d-block d-lg-none"> elit aliquam</p>
             <div class="social-media">
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.facebook.com/Opediatech/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/opedia_technologies/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://bd.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
           </div>
@@ -664,7 +742,7 @@
           <div class="footer-menu">
             <p class="company-title">Company</p>
             <a href="./index.html"> <span class="fs-18-w">Home</span> </a>
-            <a href="#"> <span class="fs-18-w">About us</span> </a>
+            <a href="./about.html"> <span class="fs-18-w">About us</span> </a>
             <a href="#"><span class="fs-18-w">Services </span> </a>
             <a href="#"> <span class="fs-18-w">Blog</span> </a>
             <a href="#"> <span class="fs-18-w">Contact</span> </a>
@@ -684,15 +762,15 @@
             <p class="company-title">Contacts us</p>
             <div class="contact-child">
               <i class="fa-regular fa-envelope"></i>
-              <a href="#"><span class="fs-18-w">contact@company.com</span></a>
+              <a href="mailto:naharweb15@gmail.com" target="_blank"><span class="fs-18-w">contact@company.com</span></a>
             </div>
             <div class="contact-child">
               <i class="fa-solid fa-phone"></i>
-              <a href="#"><span class="fs-18-w">(414) 687 - 5892</span></a>
+              <a href="tel:+8801978159172" target="_blank"><span class="fs-18-w">(414) 687 - 5892</span></a>
             </div>
             <div class="contact-child">
               <i class="fa-solid fa-location-dot"></i>
-              <a href="#"><span class="fs-18-w">794 Mcallister St <br class="d-none d-lg-block">
+              <a href="https://www.google.com/maps" target="_blank"><span class="fs-18-w">794 Mcallister St <br class="d-none d-lg-block">
                 San Francisco, 94102</span></a>
             </div>
           </div>
@@ -740,7 +818,15 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./assets/js/script.js"></script>
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+  <script>
+    AOS.init();
+  </script>
+
 
 
 </body>

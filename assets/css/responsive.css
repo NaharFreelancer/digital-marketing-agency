@@ -357,11 +357,11 @@
     }
     .trust-img{
         text-align: center;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     .trust-section {
-        padding: 70px 0 30px 0;
+        padding: 70px 0 10px 0;
     }
     .seo-section {
         padding: 90px 0;
@@ -395,8 +395,10 @@
     .team-area{
         margin-bottom: 50px;
     }
-    
-}
+
+   
+    }
+
    
 
 
@@ -474,10 +476,10 @@
     .child {
         padding-bottom: 20px;
     }
-    .counting-parent {
+    /* .counting-parent {
         flex-direction: column;
         gap: 20px;
-    }
+    } */
     .count-head {
         font-size: 32px;
     }
