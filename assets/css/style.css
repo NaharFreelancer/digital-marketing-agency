@@ -55,46 +55,6 @@
     gap: 12px;
 }
 
-.dark {
-    color: #FFF;
-    background: #1A1A1A;
-    border: 1px solid #1A1A1A;
-    --bs-btn-hover-bg: #fff;
-    --bs-btn-hover-color: #1A1A1A;
-    --bs-btn-hover-border-color: #1A1A1A;
-}
-
-.light {
-    border: 1px solid var(--Color-03, #E1CBFF);
-    background: var(--Linear-01, rgba(255, 255, 255, 0.30));
-    backdrop-filter: blur(15px);
-    padding: 15px 39px;
-    display: flex;
-    align-items: center;
-    gap: 17px;
-}
-
-.light i {
-    width: 18px;
-    height: 18px;
-}
-.simple {
-    background: none !important;
-    border: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 150%;
-    /* 27px */
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
-
-.simple:hover {
-    color: #5C0DC6;
-    transition: 0.3s ease-in-out;
-}
 .client-info {
     color: var(--Text-Color-01, #2E2E2E);
     font-size: 18px;
@@ -111,7 +71,7 @@
     position: absolute;
     top: 50%;
     left: 120%;
-    height: 14px;
+    height: 10px;
     width: 180px;
     margin: -30px 0 0 -20px;
     transform:scale(2) translateX(-50%);
@@ -509,116 +469,6 @@ li.slick-active {
 
 /* ======blog section end =====*/
 
-/* =======email section start========= */
-.email__section {
-    margin-top: 140px;
-
-}
-
-.email__area {
-    border-radius: 67px;
-    background: var(--Primary-Color, #260058);
-    padding: 120px 0px;
-
-}
-
-
-.email-title {
-    color: var(--Neutral-Color, #FFF);
-    text-align: center;
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 150%;
-    /* 105px */
-}
-
-.get-in-touch {
-    color: #AE72FF;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-
-
-/* email section end */
-/* footer section start */
-.footer__section {
-    padding: 140px 0 80px 0;
-    background: var(--Primary-Color, #260058);
-    margin-top: 140px;
-    border: 1px solid #5C0DC6;
-}
-
-.footer-parent {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-}
-
-.footer-logo-text {
-    padding: 34px 0 26px 0;
-}
-
-.social-media {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    font-size: 19px;
-}
-
-.social-media i {
-    color: #AE72FF;
-
-}
-
-.company-title {
-    color: var(--Neutral-Color, #FFF);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 22px;
-    /* 110% */
-    padding-bottom: 40px;
-}
-
-.contact-child {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.footer-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    gap: 15px;
-    color: var(--Text-Color-03, #D0D0D0);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 20px;
-}
-
-.privacy__section {
-    background: var(--Primary-Color, #260058);
-    padding: 17px 0;
-}
-
-.privacy__area {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.copyright-title,
-.privacy-title {
-    color: var(--Neutral-Color, #FFF);
-    text-align: right;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
 
 /* .cust{
     margin: 50px;

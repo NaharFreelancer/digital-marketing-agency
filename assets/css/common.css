@@ -110,7 +110,7 @@ body{
 
 .btn:hover {
   transition: 0.6s ease-in-out;
-  box-shadow: inset 400px 50px 0 0 #260058;
+  box-shadow: inset 300px 50px 0 0 #260058;
 }
 .btn-success {
   --bs-btn-color: #260058;
@@ -127,6 +127,12 @@ body{
   --bs-btn-hover-bg: #fff!important;
   --bs-btn-hover-color: #fff!important;
   --bs-btn-hover-border-color: #1A1A1A;
+}
+.dark-2{
+  padding: 15px 36px;
+}
+.dark-3{
+  padding: 15px 22px;
 }
 
 .light {
@@ -169,7 +175,10 @@ body{
   --bs-btn-hover-color: #fff!important;
   --bs-btn-hover-border-color: #AE72FF!important;
 }
-
+.purple-2{
+  padding: 15px 70px;
+  margin-top: 18px;
+}
 .fs-52-w{
 font-size: 52px;
 line-height:78px;
@@ -188,13 +197,22 @@ font-weight: 600;
   font-weight: 600;
   line-height: 150%; /* 36px */
 }
-.fs-18, .fs-18-w, .fs-18-c, .fs-18-s{
+.fs-16-s{
+  color: var(--Text-Color-02, #595959);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.fs-18, .fs-18-w, .fs-18-c, .fs-18-s, .fs-18-k{
 font-size: 18px;
 font-weight: 400;
 line-height: 27px
 }
 .fs-18-w{
   color: var(--Neutral-Color, #FFF);
+}
+.fs-18-k{
+  color: var(--Text-Color-01, #2E2E2E);
 }
 .fs-18-s{
   color: #595959;
@@ -207,6 +225,12 @@ line-height: 27px
   font-size: 18px;
   font-weight: 600;
   line-height: 150%; /* 27px */
+}
+.fs-22-c{
+  color: var(--Primary-Color, #260058);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%; /* 33px */
 }
 .fs-32-c, .fs-32-w{
   color: var(--Primary-Color, #260058);
@@ -224,9 +248,114 @@ line-height: 27px
   font-weight: 400;
   line-height: 150%; /* 36px */
 }
+/* =======email section start========= */
+.email__section {
+  margin-top: 140px;
+
+}
+.email__area {
+  border-radius: 67px;
+  background: var(--Primary-Color, #260058);
+  padding: 120px 0px;
+
+}
+
+.email-title {
+  color: var(--Neutral-Color, #FFF);
+  text-align: center;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 150%;
+  /* 105px */
+}
+.get-in-touch {
+  color: #AE72FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* email section end */
 
 
 /* General Styles End */
+/* footer section start */
+.footer__section {
+  padding: 140px 0 80px 0;
+  background: var(--Primary-Color, #260058);
+  margin-top: 140px;
+  border: 1px solid #5C0DC6;
+}
+
+.footer-parent {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer-logo-text {
+  padding: 34px 0 26px 0;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 19px;
+}
+
+.social-media i {
+  color: #AE72FF;
+
+}
+
+.company-title {
+  color: var(--Neutral-Color, #FFF);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  /* 110% */
+  padding-bottom: 40px;
+}
+
+.contact-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 15px;
+  color: var(--Text-Color-03, #D0D0D0);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.privacy__section {
+  background: var(--Primary-Color, #260058);
+  padding: 17px 0;
+}
+
+.privacy__area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.copyright-title,
+.privacy-title {
+  color: var(--Neutral-Color, #FFF);
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+}
 
 
 /* =========== */
@@ -267,21 +396,22 @@ line-height: 27px
   border-radius: 12px;
 }
 
-/* .button_slide {
-  color: #FFF;
-  border: 2px solid rgb(216, 2, 134);
-  border-radius: 0px;
-  padding: 18px 36px;
-  display: inline-block;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 14px;
-  letter-spacing: 1px;
+/* scroll to top start */
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5C0DC6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 #D80286;
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.4s;
-  transition: ease-out 0.4s;
+  padding: 10px 15px;
+  font-size: 16px;
 }
-.slide_right:hover {
-  box-shadow: inset 400px 0 0 0 #D80286;
-} */
+#scrollToTopBtn:hover {
+  background-color: #8E39FF;
+}
+/* scroll to top end */
