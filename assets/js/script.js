@@ -161,3 +161,16 @@ for (let i = 0; i < 10; i++) {
 }
 
 // sound wave js end///
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var accordIcons = document.querySelectorAll('.accord-icon');
+
+  accordIcons.forEach(function (icon) {
+      icon.addEventListener('click', function () {
+          var parent = this.closest('.accord-parent');
+          var child = parent.querySelector('.accord-child');
+          child.style.display = child.style.display === 'none' ? 'block' : 'none';
+      });
+  });
+});

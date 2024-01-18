@@ -35,8 +35,8 @@
         padding: 80px 0 100px 0;
     }
     .fs-52-w, .fs-52-c {
-        font-size: 44px;
-        line-height: 70px;
+        font-size: 42px;
+        line-height: 60px;
     }
     .fs-18, .fs-18-w, .fs-18-c {
         font-size: 16px;
@@ -210,8 +210,33 @@
 .price-parent {
     padding: 35px 0;
 }
-
 /* ================================ */
+.service-detaile-section {
+    padding: 88px 0 45px 0;
+}
+.specialize-section {
+    margin: 80px 0 100px 0;
+}
+.specialize-area .fs-52-c{
+    margin-top: 0;
+}
+.service-section .service-detl-res{
+    border-radius: 30px!important;
+    padding: 0!important;
+    min-height: 450px;
+}
+.service-detl-res .card-title {
+    margin-bottom: 5px;
+}
+.service-detl-res .card-text {
+    padding-bottom: 20px;
+}
+.helping-section {
+    padding: 80px 0 69px 0;
+}
+/* ================================ */
+/* ================================ */
+
 }
 
 
@@ -461,12 +486,34 @@
         padding: 30px 0;
     }
     
+/* ================================ */
+    .service-detaile-section {
+        padding: 81px 0 34px 0;
     }
+    .counting-section {
+        background: var(--Color-04, #F9F4FF)!important;
+    }
+    .specialize-area {
+        text-align: center;
+    }
+    .specialize-area .fs-52-c {
+        margin-top: 40px;
 
+    }
+    .specialize-section {
+        margin: 80px 0;
+    }
+    .serv-detl-res{
+        text-align: center;
+    }
+    .serv-detl-res .service-area {
+        padding-bottom: 30px;
+    }
+    .helping-section {
+        padding: 50px 0;
+    }
 /* ================================ */
-
-/* ================================ */
-
+}
 
 
 
@@ -649,6 +696,20 @@
         font-size: 23px;
         padding: 18px 0 12px 0;
     }
+    /* ================================ */
+
+    .service-detaile-section {
+        padding: 70px 0 34px 0;
+    }
+    .specialize-section {
+        margin: 70px 0;
+    }
+    .helping-section {
+        padding: 45px 0;
+    }
+    .service-section .service-detl-res {
+        min-height: 0px;
+    }
 }
     
     
@@ -801,8 +862,20 @@
 .amount {
     font-size: 33px;
 }
-
-    /* ================================== */
+ /* ================================== */
+ .service-detaile-section {
+    padding: 60px 0 20px 0;
+}
+.helping-section {
+    padding: 40px 0;
+}
+.help-text {
+    text-align: center;
+    padding: 24px 0 45px 0;
+}
+.fs-24-c {
+    font-size: 15px;
+}
 /* ================================== */
 
 }

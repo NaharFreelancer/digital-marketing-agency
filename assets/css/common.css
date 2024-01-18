@@ -276,8 +276,28 @@ line-height: 27px
 
 /* email section end */
 
+/* image animation property */
+.all-img-scale{
+  max-width: 1030px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 51px;
+}
 
-/* General Styles End */
+.all-img-scale img {
+  border-radius: 51px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+
+}
+
+.all-img-scale img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+/* image animation property */
+
 /* footer section start */
 .footer__section {
   padding: 140px 0 80px 0;

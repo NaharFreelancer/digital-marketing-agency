@@ -17,26 +17,6 @@
     color: var(--Text-Color-02, #2E2E2E);
     padding: 24px 0 48px 0;
 }
-.about-img{
-    max-width: 1030px;
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 51px;
-}
-
-.about-img img {
-    border-radius: 51px;
-    overflow: hidden;
-    transition: 0.3s ease-in-out;
-
-}
-
-.about-img img:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-}
-
 
 
 /* Trust section start */
