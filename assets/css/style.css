@@ -6,7 +6,7 @@
     overflow-x: hidden;
 }
 
-.hero-title, .hero-title-2 {
+.hero-title{
     color: var(--Primary-Color, #260058);
     font-size: 60px;
     font-weight: 700;
@@ -15,8 +15,11 @@
     position: relative;
 }
 .hero-title-2{
+    color: var(--Primary-Color, #260058);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 150%;
     padding-bottom: 24px;
-
 }
 
 .hero-title::after {
@@ -25,7 +28,7 @@
     background-repeat: no-repeat;
     content: '';
     z-index: 3;
-    top: 208%;
+    top: 232%;
     right: 500px;
     width: 50px;
     height: 50px;
@@ -61,7 +64,7 @@
   /* sound wave css start */
 #bars {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 120%;
     height: 10px;
     width: 180px;
