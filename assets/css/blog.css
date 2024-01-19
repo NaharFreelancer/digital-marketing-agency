@@ -27,11 +27,24 @@
     justify-content: space-between;
     
 }
-.filter .btn .btn-success{
+.btn-parent .btn{
     border-radius: 100px;
-    border: 1px solid var(--Color-03, #E1CBFF);
+    border: 1px solid #E1CBFF!important;
     color: var(--Primary-Color, #260058);
+    padding: 13px 30px;
+    margin: 5px;
+
 }
+.btn-parent .btn:hover{
+    color: #fff;
+}
+.btn-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
     color: var(--bs-btn-active-color);

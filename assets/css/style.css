@@ -12,21 +12,13 @@
     font-weight: 700;
     line-height: 150%;
     /* 90px */
-    padding-bottom: 24px;
     position: relative;
 }
+.hero-title-2{
+    padding-bottom: 24px;
 
-/* .hero-title::before {
-    position: absolute;
-    background-image: url('../images/design-1.png');
-    background-repeat: no-repeat;
-    content: '';
-    z-index: 3;
-    top: 8%;
-    right: 56px;
-    width: 60px;
-    height: 60px;
-} */
+}
+
 .hero-title::after {
     position: absolute;
     background-image: url('../images/design-2.png');

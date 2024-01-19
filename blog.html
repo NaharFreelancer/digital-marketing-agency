@@ -53,7 +53,7 @@
                 <a class="nav-link active  " href="./blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">Contact</a>
+                <a class="nav-link " href="./contact.html">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -87,23 +87,23 @@
   </div>
   <!-- Blog Content End Here -->
   <!-- Categories Content Start Here -->
-  <div class="tab-section">
+  <div class="tab-section overflow-x-hidden">
     <div class="container">
       <div class="tab-area">
         <h4 class="fs-24-c category-title">Catagories:</h4>
         <div class="btn-parent">
-          <button data-name=".category-1" class="filter btn btn-success active">Design Marketing</button>
+          <button data-name=".category-1" class="filter btn btn-success">Design Marketing</button>
           <button data-name=".category-2" class="filter btn btn-success">Web</button>
-          <button data-name=".category-3" class="filter btn btn-success">Digital Marketing</button>
+          <button data-name=".category-3" class="filter btn btn-success active">Digital Marketing</button>
           <button data-name=".category-4" class="filter btn btn-success">Branding</button>
           <button data-name=".category-5" class="filter btn btn-success">Content creation</button>
           <button data-name=".category-6" class="filter btn btn-success">SEO analysis</button>
-          <button data-name="" class="btn btn-success">Search by post</button>
+          <button data-name="" class="btn btn-success light">Search by post <i class="fa-solid fa-magnifying-glass"></i></button>
   
         </div>
         
         <div class="grid">
-          <div class="grid-item category-1">
+          <div class="grid-item initial-filter category-1">
             <div class="row g-4 blog-content">
               
               <div class="col-lg-6">
@@ -1172,8 +1172,8 @@
             <a href="./index.html"> <span class="fs-18-w">Home</span> </a>
             <a href="./about.html"> <span class="fs-18-w">About us</span> </a>
             <a href="./service.html"><span class="fs-18-w">Services </span> </a>
-            <a href="#"> <span class="fs-18-w">Blog</span> </a>
-            <a href="#"> <span class="fs-18-w">Contact</span> </a>
+            <a href="./blog.html"> <span class="fs-18-w">Blog</span> </a>
+            <a href="./contact.html"> <span class="fs-18-w">Contact</span> </a>
           </div>
 
 
@@ -1253,21 +1253,21 @@
 
 <script>
   var $grid = $('.grid').isotope({
-    itemSelector: '.grid-item',
-    layoutMode: 'fitRows',
-  });
-
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows',
+  filter: '.initial-filter', // Add this line with the appropriate class
+});
   $('.btn-parent button').on("click", function () {
-    var value = $(this).attr('data-name');
+  var value = $(this).attr('data-name');
+  console.log('Clicked button with value:', value);
 
-    $grid.isotope({
-      filter: value,
-    });
-
-    $('.btn-parent button').removeClass('active');
-    $(this).addClass('active');
+  $grid.isotope({
+    filter: value,
   });
 
+  $('.btn-parent button').removeClass('active');
+  $(this).addClass('active');
+});
   
 </script>
 </body>

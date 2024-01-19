@@ -21,8 +21,7 @@
     .hero-title::after {
         display: none;
     }
-    .hero-title {
-        color: var(--Primary-Color, #260058);
+    .hero-title-2 {
         font-size: 50px;
         line-height: 140%;
         padding-bottom: 20px;
@@ -113,7 +112,7 @@
         font-size: 29px;
     }
     .email__section {
-        margin-top: 125px;
+        margin-top: 110px;
     }
     .email-title {
         font-size: 60px;
@@ -235,8 +234,16 @@
     padding: 80px 0 69px 0;
 }
 /* ================================ */
+.blog-page-section {
+    padding: 80px 0;
+}
 /* ================================ */
-
+.contact-section {
+    margin-top: 90px;
+}
+.info-parent {
+    margin-top: 40px;
+}
 }
 
 
@@ -261,11 +268,14 @@
         padding: 70px 0 0px 0;
         text-align: center;
     }
-    .hero-title {
-        color: var(--Primary-Color, #260058);
+    .hero-title{      
+          font-size: 42px;
+
+    }
+    .hero-title-2 {
         font-size: 42px;
         line-height: 130%;
-        padding: 18px 0;
+        padding-bottom: 18px;
     }
     .hero-text {
         font-size: 16px;
@@ -513,6 +523,32 @@
         padding: 50px 0;
     }
 /* ================================ */
+    .blog-page-section {
+        padding: 60px 0;
+    }
+    .pagination {
+        gap: 20px;
+    }
+    .page-link {
+        width: 40px;
+        height: 40px;
+    }
+/* ================================ */
+
+    .contact-section {
+        margin-top: 60px;
+    }
+
+    .info-parent {
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    form.contact-form {
+        text-align: left;
+    }
+
 }
 
 
@@ -710,6 +746,45 @@
     .service-section .service-detl-res {
         min-height: 0px;
     }
+/* ================================ */
+.btn-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-parent   .btn {
+        width: 100%; /* Make buttons take up full width on smaller screens */
+      }
+
+      .pagination {
+        gap: 15px;
+    }
+    .page-link {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+/* ================================ */
+    .contact-section {
+        margin-top: 50px;
+    }
+    .info-parent {
+        margin-top: 30px;
+        padding-bottom: 30px;
+        gap: 20px;
+    }
+    .form-title {
+        padding-bottom: 35px;
+    }
+    .contact-form .input-block .form-control {
+        margin-bottom: 25px;
+    }
+    .fs-20-s, .fs-20-k {
+        font-size: 18px;
+    }
+    .contact-wrap {
+        padding: 30px;
+    }
+
 }
     
     
@@ -877,5 +952,26 @@
     font-size: 15px;
 }
 /* ================================== */
+.blog-page-section {
+    padding: 50px 0;
+}
+.pagination {
+    gap: 12px;
+}
+.page-link {
+    font-size: 14px;
+}
+/* ================================== */
 
+.contact-section {
+    margin-top: 40px;
+}
+.info-parent {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+}
+.fs-20-s, .fs-20-k {
+    font-size: 16px;
+}
 }

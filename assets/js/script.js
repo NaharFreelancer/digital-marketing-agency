@@ -199,3 +199,23 @@ var items = $(".list-wrapper .list-item");
     });
 // pagination js end///
 
+// isotope js start///
+  // var $grid = $('.grid').isotope({
+  //   itemSelector: '.grid-item',
+  //   layoutMode: 'fitRows',
+  // });
+
+  // $('.btn-parent button').on("click", function () {
+  //   var value = $(this).attr('data-name');
+
+  //   $grid.isotope({
+  //     filter: value,
+  //   });
+
+  //   $('.btn-parent button').removeClass('active');
+  //   $(this).addClass('active');
+  // });
+// isotope js end///
+  
+
+

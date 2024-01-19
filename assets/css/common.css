@@ -120,6 +120,7 @@ body{
   --bs-btn-hover-bg: #260058;
   --bs-btn-hover-border-color: #260058; */
 }
+
 .dark {
   color: #FFF;
   background: #1A1A1A;
@@ -142,6 +143,7 @@ body{
   padding: 15px 39px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 17px;
 }
 
@@ -225,6 +227,16 @@ line-height: 27px
   font-size: 18px;
   font-weight: 600;
   line-height: 150%; /* 27px */
+}
+.fs-20-s, .fs-20-k{
+  color: var(--Text-Color-01, #2E2E2E);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  padding-bottom: 12px;
+}
+.fs-20-k{
+  color: var(--Text-Color-01, #2E2E2E);
 }
 .fs-22-c{
   color: var(--Primary-Color, #260058);
