@@ -53,9 +53,9 @@ body{
   --bs-bg-opacity: 0;
 
 }
-.fa-bars:before, .fa-navicon:before {
+/* .fa-bars:before, .fa-navicon:before {
   content: none;
-}
+} */
 .navbar {
   --bs-navbar-nav-link-padding-x: 56px;
   --bs-navbar-padding-x: 0;
@@ -84,6 +84,21 @@ body{
 }
 .nav-link:hover {
   color: #AE72FF;
+}
+.navbar-toggler{
+  border: none;
+}
+button.navbar-toggler{
+  outline: none;
+  box-shadow: unset!important;
+}
+.navbar-toggler-icon{
+  background-image: unset;
+  color: #E1CBFF;
+  height: none;
+}
+.navbar-toggler-icon i{
+  font-size: 28px!important;
 }
 
 
@@ -305,7 +320,7 @@ line-height: 27px
 }
 
 .all-img-scale img:hover{
-  transform: scale(1.2);
+  transform: scale(0.4);
   cursor: pointer;
 }
 /* image animation property */

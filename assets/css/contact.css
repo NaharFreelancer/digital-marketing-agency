@@ -39,3 +39,8 @@
 .contact-form .input-block .form-control.textxrea-custom {
     border-radius: 21px !important;
 }
+
+.form-control:focus {
+    border-color: #AE72FF;
+    box-shadow: 0 0 0 0.25rem #E1CBFF!important;
+}

@@ -95,6 +95,7 @@
 
 // const el = document.querySelector( '.counter' )
 // IO.observe( el )
+
 ///---- counting animation start---///
 
 const counterUp = window.counterUp.default;

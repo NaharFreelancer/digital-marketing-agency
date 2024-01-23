@@ -251,9 +251,9 @@
     .btn {
         padding: 10px 24px;
     }
-    i.fa-solid.fa-bars{
+    /* i.fa-solid.fa-bars{
         display: none;
-    }
+    } */
     .navbar {
         --bs-navbar-padding-y: 20px;
     }

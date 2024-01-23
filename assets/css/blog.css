@@ -1,5 +1,26 @@
+.search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid #E1CBFF;
+    border-radius: 100px;
+    padding: 12px;
+    cursor: pointer;
+}
+.search-btn input{
+    border: none;
+}
+input:focus-visible{
+ outline: none;
+}
+.search-btn i{
+color: #2E2E2E;
+}
+
+
 .blog-page-section {
-    padding: 93px 0 145px 0;
+    padding: 93px 0 100px 0;
 }
 .blog-page-area{
     text-align: center;
@@ -170,5 +191,3 @@
 
 }
 /* pagination css end here */
-
-
