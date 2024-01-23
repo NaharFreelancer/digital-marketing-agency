@@ -85,7 +85,9 @@ body{
 .nav-link:hover {
   color: #AE72FF;
 }
-/* .navbar-toggler{
+
+
+.navbar-toggler{
   border: none;
 }
 button.navbar-toggler{
@@ -99,7 +101,7 @@ button.navbar-toggler{
 }
 .navbar-toggler-icon i{
   font-size: 28px!important;
-} */
+}
 
 
 /* =========menubar end============== */

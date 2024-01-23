@@ -564,7 +564,7 @@
         padding: 60px 0 0px 0;
         text-align: center;
     }
-    .hero-title {
+    .hero-title, .hero-title-2 {
         font-size: 35px;
     }
     .hero-text {
@@ -800,7 +800,7 @@
         padding: 50px 0 0px 0;
         text-align: center;
     }
-    .hero-title {
+    .hero-title, .hero-title-2 {
         font-size: 30px;
     }
     .logo-img img {
