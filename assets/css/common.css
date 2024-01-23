@@ -322,7 +322,7 @@ line-height: 27px
 }
 
 .all-img-scale img:hover{
-  transform: scale(0.4);
+  transform: scale(1.2);
   cursor: pointer;
 }
 /* image animation property */
